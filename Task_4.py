@@ -27,7 +27,7 @@ def Mult_get():
             num_spisok = int(random.randint(0,number_n*2-1))
             Task.write(str(num_spisok) + '\n')
             new_list_2.append(new_list[num_spisok])
-            print(f"случайно сформированный индекс = {new_list[num_spisok]}")
+            print(f"случайно сформированное число = {new_list[num_spisok]}")
             composition_elem = math.prod(new_list_2)
         return  composition_elem
            
